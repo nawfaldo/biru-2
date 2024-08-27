@@ -19,7 +19,7 @@ export function TRPCReactProvider(props: { children: React.ReactNode }) {
       links: [
         httpBatchLink({
           transformer: SuperJSON,
-          url: "http://localhost:3000/api/trpc",
+          url: "https://biru-2.vercel.app/api/trpc",
         }),
       ],
     }),
